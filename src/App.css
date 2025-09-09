@@ -4,27 +4,27 @@ body {
 }
 
 /* Navbar */
-.navbar {
+.Navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #111;
   padding: 15px 40px;
 }
-.navbar .logo {
+.Navbar .logo {
   color: white;
   font-weight: bold;
 }
-.navbar .nav-links {
+.Navbar .nav-links {
   list-style: none;
   display: flex;
   gap: 20px;
 }
-.navbar .nav-links li {
+.Navbar .nav-links li {
   color: white;
   cursor: pointer;
 }
-.navbar .nav-links li.active {
+.Navbar .nav-links li.active {
   text-decoration: underline;
 }
 

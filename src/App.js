@@ -1,12 +1,12 @@
 import React from "react";
-import navbar from "./navbar";
+import Navbar from "./Navbar";
 import "./App.css";
 
 function App() {
   return (
     <div>
       <header className="header">
-        <navbar />
+        <Navbar />
         <div className="header-content">
           <h1>Bonjour, je suis John Doe</h1>
           <h2>Développeur web full stack</h2>
@@ -26,23 +26,33 @@ function App() {
             <h3>Mes compétences</h3>
             <div className="skill">
               <span>HTML5 90%</span>
-              <div className="bar"><div className="fill html"></div></div>
+              <div className="bar">
+                <div className="fill html"></div>
+              </div>
             </div>
             <div className="skill">
               <span>CSS3 80%</span>
-              <div className="bar"><div className="fill css"></div></div>
+              <div className="bar">
+                <div className="fill css"></div>
+              </div>
             </div>
             <div className="skill">
               <span>JAVASCRIPT 70%</span>
-              <div className="bar"><div className="fill js"></div></div>
+              <div className="bar">
+                <div className="fill js"></div>
+              </div>
             </div>
             <div className="skill">
               <span>PHP 60%</span>
-              <div className="bar"><div className="fill php"></div></div>
+              <div className="bar">
+                <div className="fill php"></div>
+              </div>
             </div>
             <div className="skill">
               <span>REACT 50%</span>
-              <div className="bar"><div className="fill react"></div></div>
+              <div className="bar">
+                <div className="fill react"></div>
+              </div>
             </div>
           </div>
         </div>
@@ -51,7 +61,15 @@ function App() {
       <footer className="footer">
         <div className="footer-col">
           <h4>John Doe</h4>
-          <p>40 rue Laure Diebold<br/>69009 Lyon, France<br/>Tél : 10 20 30 40 50<br/>john.doe@gmail.com</p>
+          <p>
+            40 rue Laure Diebold
+            <br />
+            69009 Lyon, France
+            <br />
+            Tél : 10 20 30 40 50
+            <br />
+            john.doe@gmail.com
+          </p>
         </div>
         <div className="footer-col">
           <h4>Liens utiles</h4>

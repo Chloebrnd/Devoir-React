@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./App.css";
 
-export default function navbar() {
+export default function Navbar() {
   const [active, setActive] = useState("home");
 
   return (
-    <nav className="navbar">
+    <nav className="Navbar">
       <div className="logo">JOHN DOE</div>
       <ul className="nav-links">
         <li 
